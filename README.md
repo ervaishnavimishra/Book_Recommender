@@ -2,7 +2,7 @@
 
 ##  Project Overview
 
-This project is a **Book Recommendation System** built using **Machine Learning** techniques and deployed with **Streamlit**. The system recommends books to users based on popularity and content similarity, helping users discover books aligned with their interests.
+This project is a **Book Recommendation System** built using **Machine Learning** techniques and implemented using **Streamlit** for user interface. The system recommends books to users based on popularity and content similarity, helping users discover books aligned with their interests.
 
 The focus of this project is on **recommendation logic, data preprocessing, and model implementation**.
 
@@ -13,7 +13,6 @@ The focus of this project is on **recommendation logic, data preprocessing, and 
 * Build a functional book recommendation engine
 * Implement **popularity-based** and **content-based** recommendation approaches
 * Handle basic **cold-start** scenarios
-* Deploy the model using a simple and interactive Streamlit interface
 
 ---
 
@@ -86,14 +85,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run src/app.py
 ```
-
-4. Open the browser URL shown in the terminal
-
-### Option 2: Live Demo (Deployed)
-
-The application is deployed using **Streamlit Community Cloud**.
-
-**Live Demo:** *Add your Streamlit app link here after deployment*
 
 ---
 
