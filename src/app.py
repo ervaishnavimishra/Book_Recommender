@@ -4,10 +4,10 @@ import streamlit as st
 from recommender import get_top_popular_books, recommend_books
 
 # Load cleaned dataset
-df = pd.read_csv("../data/cleaned_books.csv")
+df = pd.read_csv("data/cleaned_books.csv")
 
 # Load precomputed cosine similarity matrix
-with open("../data/cosine_sim.pkl", "rb") as f:
+with open("data/cosine_sim.pkl", "rb") as f:
     cosine_sim = pickle.load(f)
 
 
